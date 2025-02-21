@@ -1,0 +1,17 @@
+# Ignorar arquivos e diretórios do IntelliJ IDEA/PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+env/
+.virtualenv/
+.env
+.env.local
+*.pem
+*.key

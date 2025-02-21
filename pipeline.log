@@ -1,0 +1,17 @@
+2025-02-21 13:51:12,393 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-21 13:51:12,394 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-21 13:51:12,573 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-21 13:51:12,574 - INFO - Coletando detalhes dos Pokémon
+2025-02-21 13:51:27,841 - INFO - 100 Pokémon processados com sucesso.
+2025-02-21 13:51:27,843 - INFO - Transformando os dados
+2025-02-21 13:51:27,847 - INFO - Calculando medias por tipo de Pokémon
+2025-02-21 13:51:27,853 - INFO - Medias calculadas com sucesso
+2025-02-21 13:51:27,853 - INFO - Encontrando os 5 Pokemon com maior experiencia base
+2025-02-21 13:51:27,854 - INFO - Top 5 Pokemon com maior experiencia base encontrados
+2025-02-21 13:51:27,855 - INFO - Gerando gráfico de distribuição de Pokémon por tipo
+2025-02-21 13:51:28,051 - INFO - Gráfico salvo como 'pokemon_por_tipo.png'
+2025-02-21 13:51:28,280 - INFO - Dados salvos com sucesso em pokemon_dados_2025-02-21_13-51-28.csv
+2025-02-21 13:51:28,281 - INFO - Dados salvos com sucesso em pokemon_tipos_2025-02-21_13-51-28.csv
+2025-02-21 13:51:28,281 - INFO - Dados salvos com sucesso em medias_por_tipo_2025-02-21_13-51-28.csv
+2025-02-21 13:51:28,282 - INFO - Dados salvos com sucesso em top_5_experiencia_2025-02-21_13-51-28.csv
+2025-02-21 13:51:28,282 - INFO - Pipeline concluído com sucesso!
