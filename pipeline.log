@@ -63,3 +63,55 @@
 2025-02-21 14:37:15,694 - INFO - Gráfico salvo como 'pokemon_por_tipo_grafico.png'
 2025-02-21 14:37:15,994 - CRITICAL - ERRO CRÍTICO: module 'src.logger' has no attribute 'error'
 2025-02-21 14:37:15,994 - INFO - Encerrando o pipeline devido a erro crítico.
+2025-02-25 15:18:01,762 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-25 15:18:01,762 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-25 15:18:01,885 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-25 15:18:01,885 - INFO - Coletando detalhes dos Pokémon
+2025-02-25 15:18:01,886 - ERROR - Erro ao processar detalhes dos Pokémon: No connection adapters were found for "{'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}"
+2025-02-25 15:18:01,886 - CRITICAL - ERRO CRÍTICO: Nenhum dado foi coletado dos Pokémon
+2025-02-25 15:18:01,886 - INFO - Encerrando o pipeline devido a erro crítico.
+2025-02-25 15:19:06,082 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-25 15:19:06,083 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-25 15:19:06,205 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-25 15:19:06,205 - INFO - Coletando detalhes dos Pokémon
+2025-02-25 15:19:06,206 - ERROR - Erro ao processar detalhes dos Pokémon: No connection adapters were found for "{'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}"
+2025-02-25 15:19:06,206 - CRITICAL - ERRO CRÍTICO: Nenhum dado foi coletado dos Pokémon
+2025-02-25 15:19:06,206 - INFO - Encerrando o pipeline devido a erro crítico.
+2025-02-25 15:19:34,098 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-25 15:19:34,099 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-25 15:19:34,233 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-25 15:19:34,235 - INFO - Coletando detalhes dos Pokémon
+2025-02-25 15:20:49,081 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-25 15:20:49,082 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-25 15:20:49,228 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-25 15:20:49,229 - INFO - Coletando detalhes dos Pokémon
+2025-02-25 15:21:16,642 - INFO - 100 Pokémon processados com sucesso.
+2025-02-25 15:21:16,644 - INFO - Transformando os dados
+2025-02-25 15:21:16,663 - INFO - Calculando medias por tipo de Pokémon
+2025-02-25 15:21:16,681 - INFO - Medias calculadas com sucesso
+2025-02-25 15:21:16,681 - INFO - Encontrando os 5 Pokemon com maior experiencia base
+2025-02-25 15:21:16,685 - INFO - Top 5 Pokemon com maior experiencia base encontrados
+2025-02-25 15:21:16,685 - INFO - Gerando gráfico de distribuição de Pokémon por tipo
+2025-02-25 15:21:17,211 - INFO - Gráfico salvo como 'pokemon_por_tipo_grafico.png'
+2025-02-25 15:21:17,671 - INFO - Dados salvos com sucesso em dados_exportados/pokemon_dados_25-02-2025_15-21.csv
+2025-02-25 15:21:17,672 - INFO - Dados salvos com sucesso em dados_exportados/pokemon_tipos_25-02-2025_15-21.csv
+2025-02-25 15:21:17,674 - INFO - Dados salvos com sucesso em dados_exportados/medias_por_tipo_25-02-2025_15-21.csv
+2025-02-25 15:21:17,675 - INFO - Dados salvos com sucesso em dados_exportados/top_5_experiencia_25-02-2025_15-21.csv
+2025-02-25 15:21:17,675 - INFO - Pipeline concluído com sucesso!
+2025-02-25 15:22:32,982 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-25 15:22:32,983 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-25 15:22:33,109 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-25 15:22:33,109 - INFO - Coletando detalhes dos Pokémon
+2025-02-25 15:22:46,325 - INFO - 100 Pokémon processados com sucesso.
+2025-02-25 15:22:46,327 - INFO - Transformando os dados
+2025-02-25 15:22:46,348 - INFO - Calculando medias por tipo de Pokémon
+2025-02-25 15:22:46,362 - INFO - Medias calculadas com sucesso
+2025-02-25 15:22:46,362 - INFO - Encontrando os 5 Pokemon com maior experiencia base
+2025-02-25 15:22:46,364 - INFO - Top 5 Pokemon com maior experiencia base encontrados
+2025-02-25 15:22:46,364 - INFO - Gerando gráfico de distribuição de Pokémon por tipo
+2025-02-25 15:22:46,521 - INFO - Gráfico salvo como 'pokemon_por_tipo_grafico.png'
+2025-02-25 15:22:46,791 - INFO - Dados salvos com sucesso em dados_exportados/pokemon_dados_25-02-2025_15-22.csv
+2025-02-25 15:22:46,792 - INFO - Dados salvos com sucesso em dados_exportados/pokemon_tipos_25-02-2025_15-22.csv
+2025-02-25 15:22:46,792 - INFO - Dados salvos com sucesso em dados_exportados/medias_por_tipo_25-02-2025_15-22.csv
+2025-02-25 15:22:46,793 - INFO - Dados salvos com sucesso em dados_exportados/top_5_experiencia_25-02-2025_15-22.csv
+2025-02-25 15:22:46,793 - INFO - Pipeline concluído com sucesso!

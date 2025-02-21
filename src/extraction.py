@@ -14,10 +14,11 @@ def extrair_dados():
             raise Exception(f"Erro ao acessar a API. Código HTTP: {response.status_code}")
 
         data = response.json()
-        pokemon_urls = [pokemon["url"] for pokemon in data["results"]]
 
-        logger.info(f"Extração concluída! {len(pokemon_urls)} Pokémon coletados")
-        return pokemon_urls
+        pokemon_dados = [{"name": pokemon["name"], "url": pokemon["url"]} for pokemon in data["results"]]
+
+        logger.info(f"Extração concluída! {len(pokemon_dados)} Pokémon coletados")
+        return pokemon_dados
 
     except Exception as e:
         logger.error(f"Falha na extração de dados: {e}")
@@ -30,7 +31,7 @@ def processar_pokemon(pokemon_urls):
         logger.info("Coletando detalhes dos Pokémon")
         pokemon_data = []
         for url in pokemon_urls:
-            response = requests.get(url)
+            response = requests.get(url["url"])
             if response.status_code != 200:
                 logger.warning(f"Erro ao buscar detalhes do Pokémon: {url}")
                 continue

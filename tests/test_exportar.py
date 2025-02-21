@@ -1,5 +1,10 @@
 import os
+import sys
+
 import pandas as pd
+
+# Adiciona a pasta raiz do projeto ao sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.exportar import salvar_csv
 
 def test_salvar_csv():

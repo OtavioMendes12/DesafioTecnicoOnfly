@@ -1,4 +1,9 @@
+import os
+import sys
+
 import pandas as pd
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.analysis import calcular_medias_por_tipo
 
 def test_calcular_medias_por_tipo():
