@@ -1,6 +1,6 @@
 import os
 import datetime
-from logger import logger
+from src.logger import logger
 
 def salvar_csv(df, nome_base):
     try:

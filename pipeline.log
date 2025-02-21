@@ -49,3 +49,17 @@
 2025-02-21 14:23:04,450 - INFO - Dados salvos com sucesso em dados_exportados/medias_por_tipo_21-02-2025_14-23.csv
 2025-02-21 14:23:04,451 - INFO - Dados salvos com sucesso em dados_exportados/top_5_experiencia_21-02-2025_14-23.csv
 2025-02-21 14:23:04,451 - INFO - Pipeline concluído com sucesso!
+2025-02-21 14:36:59,631 - INFO - Iniciando pipeline de dados dos Pokémon
+2025-02-21 14:36:59,632 - INFO - Iniciando extração de dados da PokeAPI
+2025-02-21 14:36:59,639 - INFO - Extração concluída! 100 Pokémon coletados
+2025-02-21 14:36:59,640 - INFO - Coletando detalhes dos Pokémon
+2025-02-21 14:37:15,127 - INFO - 100 Pokémon processados com sucesso.
+2025-02-21 14:37:15,129 - INFO - Transformando os dados
+2025-02-21 14:37:15,175 - INFO - Calculando medias por tipo de Pokémon
+2025-02-21 14:37:15,215 - INFO - Medias calculadas com sucesso
+2025-02-21 14:37:15,216 - INFO - Encontrando os 5 Pokemon com maior experiencia base
+2025-02-21 14:37:15,225 - INFO - Top 5 Pokemon com maior experiencia base encontrados
+2025-02-21 14:37:15,226 - INFO - Gerando gráfico de distribuição de Pokémon por tipo
+2025-02-21 14:37:15,694 - INFO - Gráfico salvo como 'pokemon_por_tipo_grafico.png'
+2025-02-21 14:37:15,994 - CRITICAL - ERRO CRÍTICO: module 'src.logger' has no attribute 'error'
+2025-02-21 14:37:15,994 - INFO - Encerrando o pipeline devido a erro crítico.

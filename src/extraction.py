@@ -1,8 +1,6 @@
-import requests
-from logger import logger
 
 import requests
-from logger import logger
+from src.logger import logger
 
 
 def extrair_dados():

@@ -1,5 +1,5 @@
 import pandas as pd
-from logger import logger
+from src.logger import logger
 
 
 def categorizar_experiencia(exp):

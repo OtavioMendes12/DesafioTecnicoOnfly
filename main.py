@@ -1,8 +1,8 @@
-from extraction import extrair_dados, processar_pokemon
-from transformation import transformar_dados
-from analysis import contar_tipos, calcular_medias_por_tipo, encontrar_top_5_experiencia, gerar_grafico
-from exportar import salvar_csv
-from logger import logger
+from src.extraction import extrair_dados, processar_pokemon
+from src.transformation import transformar_dados
+from src.analysis import contar_tipos, calcular_medias_por_tipo, encontrar_top_5_experiencia, gerar_grafico
+from src.exportar import salvar_csv
+from src.logger import logger
 
 def executar_pipeline():
     logger.info("Iniciando pipeline de dados dos Pokémon")

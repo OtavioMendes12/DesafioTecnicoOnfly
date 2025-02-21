@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
-from logger import logger
+from src.logger import logger
 
 
 def contar_tipos(df):
