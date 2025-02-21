@@ -15,7 +15,6 @@
 ### 🔹 **1. Clone o repositório**
 ```bash
 git clone https://github.com/OtavioMendes12/DesafioTecnicoOnfly.git
-cd DesafioTecnicoOnfly
 ```
 
 ### 🔹 **2. Crie um ambiente virtual e ative**
