@@ -69,8 +69,8 @@ def gerar_grafico(df_tipos):
         plt.ylabel("Quantidade")
         plt.title("Distribuição de Pokémon por Tipo")
 
-        plt.savefig("pokemon_por_tipo.png")
-        logger.info("Gráfico salvo como 'pokemon_por_tipo.png'")
+        plt.savefig("pokemon_por_tipo_grafico.png")
+        logger.info("Gráfico salvo como 'pokemon_por_tipo_grafico.png'")
         plt.show()
 
     except Exception as e:
